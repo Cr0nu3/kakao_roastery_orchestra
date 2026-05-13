@@ -75,7 +75,7 @@ uv run crawler.py \
   --cookie test.json
 ```
 
-![result](./docs/image.png)
+<img src="./docs/image.png" alt="result" width="50%">
 
 ## 6. 출력 구조
 

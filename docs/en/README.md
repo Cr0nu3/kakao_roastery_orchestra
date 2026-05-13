@@ -18,7 +18,7 @@ Orchestrator → Generator ⇄ Evaluator (feedback loop)
 
 ![architecture](../flowchart.png)
 
-- **Orchestrator** — runs the Generator↔Evaluator loop, tracks best score, submits best round
+- **Orchestrator** — runs the Generator↔Evaluator loop, tracks best score, submits best answers
 - **Generator** — reads the problem and produces a solution
 - **Evaluator** — independently grades answers (No interaction with Generator)
 

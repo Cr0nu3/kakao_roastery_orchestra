@@ -18,7 +18,7 @@ Orchestrator → Generator ⇄ Evaluator (피드백 루프)
 
 ![architecture](./docs/flowchart.png)
 
-- **Orchestrator** — Generator↔Evaluator 루프 실행, 점수 추적, 최고 라운드 제출
+- **Orchestrator** — Generator↔Evaluator 루프 실행, 점수 추적, 최고 점수 받은 답안 제출
 - **Generator** — 문제 읽고 풀이 생성
 - **Evaluator** — Generator와 독립적으로 문제 풀이 후, 비교
 
