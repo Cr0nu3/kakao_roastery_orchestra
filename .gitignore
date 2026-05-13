@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.local
+*.local.env
+
+# Crawler auth file (contains JWT tokens)
+crawler/test.json
+crawler/*.cookie.json
+
+# Workspace (crawled problems + solver runtime outputs)
+workspace/
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude Code (개인 로컬 설정만 무시 — settings.json은 팀 공유용으로 커밋)
+.claude/
+
+
+# Logs
+*.log
