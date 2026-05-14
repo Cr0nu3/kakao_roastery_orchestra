@@ -30,7 +30,7 @@ Orchestrator → Generator ⇄ Evaluator (피드백 루프)
 ## 1. 설치
 
 ```bash
-git clone https://github.com/Cr0nu3/kakao_roastery_orchestra/
+git clone https://github.com/Cr0nu3/kakao_roastery_orchestra
 cd kakao_roastery_orchestra
 
 # Claude Code 인증 (1회)
