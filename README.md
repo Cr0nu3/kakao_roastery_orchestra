@@ -30,7 +30,7 @@ Orchestrator → Generator ⇄ Evaluator (피드백 루프)
 ## 1. 설치
 
 ```bash
-git clone <repo> kakao_roastery_orchestra
+git clone https://github.com/Cr0nu3/kakao_roastery_orchestra/
 cd kakao_roastery_orchestra
 
 # Claude Code 인증 (1회)
@@ -44,7 +44,7 @@ cd kakao_roastery_orchestra/workspace/{slug}
 claude -p "$(cat prompt.md)" --dangerously-skip-permissions
 ```
 
-Orchestrator 가 Generator↔Evaluator 루프 실행. 최대 2라운드, score ≥ 0.85 면 조기 종료, 최고 점수 라운드 자동 선정.
+Orchestrator 가 Generator↔Evaluator 루프 실행. 최대 3라운드, score ≥ 0.85 면 조기 종료, 최고 점수 라운드 자동 선정.
 
 ## 3. 전체 문제 일괄 풀이 (선택)
 
